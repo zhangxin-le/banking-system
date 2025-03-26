@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) zx 2025 - 2025, All Rights Reserved.
+ *
+ */
+
 package org.zx.practice;
 
 import org.springframework.boot.SpringApplication;

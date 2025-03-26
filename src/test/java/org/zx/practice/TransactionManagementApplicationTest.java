@@ -1,38 +1,16 @@
+/*
+ * Copyright (c) zx 2025 - 2025, All Rights Reserved.
+ *
+ */
+
 package org.zx.practice;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-public class TransactionManagementApplicationTest
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public TransactionManagementApplicationTest(String testName )
-    {
-        super( testName );
-    }
+import static org.junit.jupiter.api.Assertions.*;
+class TransactionManagementApplicationTest {
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( TransactionManagementApplicationTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @Test
+    void main() {
     }
 }
